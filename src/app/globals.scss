@@ -16,7 +16,10 @@ body {
   overflow-x: hidden;
 }
 
+// O background abaixo é uma foto de Patrick Koschwanez. Link do artista:https://unsplash.com/pt-br/@theundex?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash.  
 body{
-  background-color: var(--bg-primary);
+  background: url("./assets/bg-home.jpg")no-repeat center center;
+  background-size: cover;
+  height: 92vh;  
 }
 

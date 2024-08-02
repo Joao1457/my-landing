@@ -6,15 +6,22 @@ import "./styles/home.scss"
 
 export default function Home() {
   return (
-    <main className="container">
-      <Header/>   
-      <div className="Home">        
-        <div>
-          <h1>Olá, Eu sou o João Paulo! 👋</h1>
-          <h2>Desenvolvedor de Software</h2>
-          <Image src="" alt="Minha foto" width={300} height={300} priority />
-        </div>
-      </div>
-    </main>
+    <html lang="en">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Landing</title>
+      </head>
+      <body>
+        <Header />
+        <main className="container">
+          <section className="home">
+            <div className="card-home">
+              <h1>Olá, Eu sou o João Paulo! 👋</h1>
+              <h3>Desenvolvedor de Software </h3>
+            </div>
+          </section>
+        </main>
+      </body>
+    </html>
   );
 }
