@@ -20,9 +20,9 @@ export function Header() {
           <li><a href="">link 2</a></li>
           <li><a href="">link 2</a></li>
         </ul>
-        <a href="https://www.linkedin.com/in/joao-paulo-marques-da-silva-b7656418b/"><LinkedinIcon /></a>
-        <a href="https://github.com/Joao1457"><GitIcon /></a>
-        <a href="mailto:joaopaulo.marques99@gmail.com"><EmailIcon /></a>   
+        <a href="https://www.linkedin.com/in/joao-paulo-marques-da-silva-b7656418b/" target="_blank"><LinkedinIcon /></a>
+        <a href="https://github.com/Joao1457" target="_blank"><GitIcon /></a>
+        <a href="mailto:joaopaulo.marques99@gmail.com" target="_blank"><EmailIcon /></a>   
       </div>
     </nav>
   );
