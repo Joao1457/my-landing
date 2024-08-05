@@ -3,6 +3,7 @@ import { Header } from "./components/header/header";
 import { Experience } from "./components/experiencia/experience";
 
 import "./styles/home.scss"
+import { Skill } from "./components/skills/skill";
 
 
 
@@ -60,6 +61,7 @@ export default function Home() {
             </div>
           </section>
           <Experience/>
+          <Skill/>
         </main>
       </body>
     </html>

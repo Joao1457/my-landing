@@ -18,6 +18,22 @@ body {
 
 body{
   background-image: linear-gradient(to right top, #121120, #16182c, #191e39, #1b2447, #1c2b55,
-   #212e57, #263159, #2a345b, #303451, #333347, #34343d, #343434);
+   #212e57, #263159, #2a345b, #303451, #333347, #34343d, #343434);   
 }
 
+.title {
+  margin: 80px ;  
+}
+
+.title h1{
+  color: var(--text-primary);
+  font-size: 80px;
+  font-weight: 500;
+  text-align: center;
+}
+
+p{
+  color: var(--text-secondary);
+  font-size : 19px;
+  text-align: center;
+}

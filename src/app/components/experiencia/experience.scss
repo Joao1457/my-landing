@@ -11,21 +11,14 @@
     background: var(--bg-primary);
     box-shadow: 0 -6px 15px rgba(0, 0, 0, 0.3);
     gap: 100px;
-}
-
-.title {
-    margin: 80px ;            
-}
-
-.title h1{
-    color: var(--text-primary);
-    font-size: 80px;
+    padding: 3%;    
 }
 
 .grid-exp{
     display: flex;
     justify-content: center;
     align-content: center;
+    padding: 3%;
 }
 
 .grid-item {

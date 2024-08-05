@@ -6,7 +6,7 @@ export function Experience() {
     <section className="experience">
       <div className="title">
         <h1>Experiências</h1>
-        <p></p>
+        <p>Aqui estão alguns lugares onde adquiri conhecimentos práticos!</p>
       </div>
       <div className="grid-exp">
         <div className="grid-item">
