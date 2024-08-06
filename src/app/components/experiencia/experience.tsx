@@ -3,7 +3,7 @@ import "./experience.scss";
 
 export function Experience() {
   return (
-    <section className="experience">
+    <section className="experience" id="experience">
       <div className="title">
         <h1>Experiências</h1>
         <p>Aqui estão alguns lugares onde adquiri conhecimentos práticos!</p>

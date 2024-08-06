@@ -27,17 +27,19 @@
     display: flex;
     align-items: center;
     padding: 10px;
+
+    img{
+        width: 80px;
+        height: 80px;
+        padding: 10px;
+        border: none;
+        border-radius: 40px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        margin-right: 20px;
+    }
 }
 
-.contact-header img{
-    width: 80px;
-    height: 80px;
-    padding: 10px;
-    border: none;
-    border-radius: 40px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-    margin-right: 20px;
-}
+
 
 .contact-body{
     margin-top: 35px;
@@ -75,21 +77,22 @@
 }
 
 .contact-text{    
-    padding: 10px;    
+    padding: 10px;
+    
+    h1{
+        color: var(--text-primary);
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    
+    h2{
+        color: var(--text-secondary);
+        font-weight: 500;
+        font-size: 15px;
+        text-align: start;
+    }    
 }
 
-.contact-text h1{
-    color: var(--text-primary);
-    font-weight: 600;
-    font-size: 16px;
-    margin-bottom: 15px;
-}
-
-.contact-text h2{
-    color: var(--text-secondary);
-    font-weight: 500;
-    font-size: 15px;
-    text-align: start;
-}
 
   

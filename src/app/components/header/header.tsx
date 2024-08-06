@@ -12,9 +12,9 @@ export function Header() {
       </div>
       <div className="socials">             
         <ul className="nav-list">
-          <li><a href="">Experiências</a></li>
-          <li><a href="">Conhecimentos</a></li>
-          <li><a href="">Contato</a></li>         
+          <li><a href="#experience">Experiências</a></li>
+          <li><a href="#skills">Conhecimentos</a></li>
+          <li><a href="#contact">Contato</a></li>         
         </ul>
         <a href="https://www.linkedin.com/in/joao-paulo-marques-da-silva-b7656418b/" target="_blank"><LinkedinIcon /></a>
         <a href="https://github.com/Joao1457" target="_blank"><GitIcon /></a>

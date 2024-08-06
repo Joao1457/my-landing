@@ -3,20 +3,23 @@ import { Header } from "./components/header/header";
 import { Experience } from "./components/experiencia/experience";
 import { Skill } from "./components/skills/skill";
 import { Contact } from "./components/contact/contact";
+import { Footer } from "./components/footer/footer";
+import ScrollToTopButton from "./components/utils/scrollToTopBtn";
+
 
 import "./styles/home.scss"
 
 export default function Home() {
   return (
     <html lang="en">
-      <head>
+      <head>      
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Landing</title>
       </head>
       <body>
         <Header />
         <main className="container">
-          <section className="home">
+          <section className="home" id="home">
             <div className="card-home">
               <div className="card-header">
                 <Image
@@ -49,11 +52,13 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <Experience />
+          <ScrollToTopButton />
+          <Experience/>
           <Skill />
           <Contact />
         </main>
-      </body>
+        <Footer/>
+      </body>           
     </html>
   );
 }
