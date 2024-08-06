@@ -35,19 +35,13 @@ export default function Home() {
                 <h3>Desenvolvedor de Software </h3>
               </div>
               <div className="card-footer">
-                <p>Meu nome é João Paulo Marques da Silva. Sou profissional da
+                <p>Meu nome é João Paulo Marques da Silva. Tenho 25 anos e sou profissional da
                   área de Análise e Desenvolvimento de Sistemas, com foco em
-                  desenvolvimento web. Minha experiência na área é de 1 ano e 10
-                  meses. Estou em busca de novas oportunidades no mercado e
-                  acredito que posso contribuir muito para esta empresa com meus
-                  conhecimentos. Em minha experiência anterior, aperfeiçoei
+                  desenvolvimento web. Durante minha experiência, aperfeiçoei
                   entendimento nas seguintes tecnologias: PHP, JAVA, HTML5, CSS,
                   Javascript, TypeScript, SCSS, React JS, Git, GitHub, SQL,
                   MySQL, Microsoft SQL Server, Laravel 8, Bootstrap, Docker,
-                  HTTP e conhecimentos em metodologias ágeis (Kanban e SCRUM).
-                  As competências como resolução de problemas, trabalho em
-                  equipe, criatividade e flexibilidade fazem parte do meu
-                  perfil.
+                  HTTP e conhecimentos em metodologias ágeis (Kanban e SCRUM).                  
                 </p>
               </div>
             </div>
