@@ -1,11 +1,10 @@
 import Image from "next/image";
 import { Header } from "./components/header/header";
 import { Experience } from "./components/experiencia/experience";
+import { Skill } from "./components/skills/skill";
+import { Contact } from "./components/contact/contact";
 
 import "./styles/home.scss"
-import { Skill } from "./components/skills/skill";
-
-
 
 export default function Home() {
   return (
@@ -33,35 +32,26 @@ export default function Home() {
                 <h3>Desenvolvedor de Software </h3>
               </div>
               <div className="card-footer">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                    non sagittis turpis. Nunc suscipit aliquam quam, et accumsan
-                    velit vulputate maximus. Ut consectetur luctus felis in
-                    accumsan. Orci varius natoque penatibus et magnis dis parturient
-                    montes, nascetur ridiculus mus. Proin porttitor pharetra diam,
-                    in dignissim erat tempor eu. Sed lectus turpis, auctor nec purus
-                    a, rhoncus mattis mauris. Curabitur eu iaculis augue. Fusce
-                    posuere erat sed massa dictum consequat. Quisque at tellus non
-                    magna dictum mollis. Nulla scelerisque interdum commodo. In
-                    varius leo pulvinar lectus convallis lobortis. Praesent porta
-                    luctus dapibus. Sed maximus, orci nec finibus elementum, quam
-                    augue malesuada urna, pellentesque elementum eros tortor id
-                    nunc. Morbi non mollis magna. Nulla ultrices risus at magna
-                    placerat posuere. Aliquam a ante sed tellus porttitor volutpat
-                    eget id dolor. Nam vestibulum magna risus, non cursus magna
-                    accumsan vitae. Donec sagittis, nibh eu lobortis suscipit, est
-                    lacus mollis lacus, a imperdiet velit mauris at ex. Mauris
-                    pulvinar nulla elementum lectus condimentum convallis. Aliquam
-                    vehicula, enim quis convallis convallis, turpis enim condimentum
-                    mi, eu lacinia erat neque ut tortor. Vivamus sed posuere magna,
-                    id ultricies diam. Quisque bibendum viverra massa, nec ultrices
-                    quam condimentum mattis. Proin bibendum quis purus nec tempus.
-                  </p>
-              </div>             
+                <p>Meu nome é João Paulo Marques da Silva. Sou profissional da
+                  área de Análise e Desenvolvimento de Sistemas, com foco em
+                  desenvolvimento web. Minha experiência na área é de 1 ano e 10
+                  meses. Estou em busca de novas oportunidades no mercado e
+                  acredito que posso contribuir muito para esta empresa com meus
+                  conhecimentos. Em minha experiência anterior, aperfeiçoei
+                  entendimento nas seguintes tecnologias: PHP, JAVA, HTML5, CSS,
+                  Javascript, TypeScript, SCSS, React JS, Git, GitHub, SQL,
+                  MySQL, Microsoft SQL Server, Laravel 8, Bootstrap, Docker,
+                  HTTP e conhecimentos em metodologias ágeis (Kanban e SCRUM).
+                  As competências como resolução de problemas, trabalho em
+                  equipe, criatividade e flexibilidade fazem parte do meu
+                  perfil.
+                </p>
+              </div>
             </div>
           </section>
-          <Experience/>
-          <Skill/>
+          <Experience />
+          <Skill />
+          <Contact />
         </main>
       </body>
     </html>

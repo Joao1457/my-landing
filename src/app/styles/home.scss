@@ -15,9 +15,9 @@
     align-items: center;
     border-radius: 15px;
     background: var(--bg-primary);
-    padding: 3%;
-    width: 100vw;
-    height: 75vh;
+    padding: 40px;
+    width: auto;
+    height: auto;
     overflow-x: hidden;
     overflow-y: auto;
     border: 1px solid rgb(37, 37, 37) ;
@@ -49,8 +49,7 @@
   }
 
   .card-footer p{
-    font-size: '300';
     color: var(--text-secondary);
-    text-align: center;
+    text-align: justify;
     padding: 5% ;
   }
