@@ -1,3 +1,4 @@
+  // No Home centralizei todo conteudo no centro e setei uma altura e largura fixa, para que na media eu só eu ajustasse conforme a tela
   .home {
     display: flex;
     justify-content: center;
@@ -21,10 +22,7 @@
     border: 1px solid rgb(37, 37, 37);
     border-radius: 5px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-
   }
-
-
 
   .card-content h1,
   h3 {
@@ -49,7 +47,7 @@
 
   .card-footer p {
     color: var(--text-secondary);
-    text-align: justify;
+    text-align: none;
     padding: 5%;
   }
 
@@ -70,12 +68,5 @@
       width: 356px;
       margin-top: 50px;
       height:auto;
-    }
-
-    .card-footer{
-
-      p{
-        text-align:justify;
-      }
     }
 }

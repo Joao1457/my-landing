@@ -1,3 +1,5 @@
+// Aqui está setado algumas configurações para a landing pages,
+//  como tipo de fonte e a rota para o layout principal renderizando a estrutura
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.scss";

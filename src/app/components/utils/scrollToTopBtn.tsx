@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import './ScrollToTopBtn.scss';
 
+// Esse componente experimental foi baseado em uma documentação sobre esse tipo botão, meu primeiro contato pratico com typescript e um pouco de react
 const ScrollToTopButton: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -22,6 +23,7 @@ const ScrollToTopButton: React.FC = () => {
   const handleScrollToTop = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     
+    // nestas consts é possivel selecionar a velocidade da subida do botão scroller
     const scrollDuration = 500;
     const scrollStep = -window.scrollY / (scrollDuration / 10);
     const scrollInterval = setInterval(() => {
@@ -32,7 +34,7 @@ const ScrollToTopButton: React.FC = () => {
       }
     }, 10);
   };
-
+  // return para mostrar o botão apos o usuario utilizar o scroll do mouse
   return (
     isVisible ? (
       <a href="#home" className="up-btn" onClick={handleScrollToTop}>

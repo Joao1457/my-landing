@@ -1,6 +1,7 @@
 import Image from "next/image";
 import "./experience.scss";
 
+// Neste componente de experiencia quero ir incrementando novos trabalhos e fazer no futuro um carrosel com todas as experiencias
 export function Experience() {
   return (
     <section className="experience" id="experience">

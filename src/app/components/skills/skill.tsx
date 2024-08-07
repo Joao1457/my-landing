@@ -1,6 +1,7 @@
 import Image from "next/image";
 import "./skill.scss";
 
+// Em formato de grid criei varios cards com as tecnologias que tenho conhecimento
 export function Skill() {
   return (
     <section className="skill" id="skills">

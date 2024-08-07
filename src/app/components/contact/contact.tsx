@@ -4,6 +4,7 @@ import { GitIcon } from "../icons/git-icon";
 import { LinkedinIcon } from "../icons/linkedin-icon";
 import "./contact.scss";
 
+// Um card com informações para contato
 export function Contact() {
     return (
       <section className="contact" id="contact">

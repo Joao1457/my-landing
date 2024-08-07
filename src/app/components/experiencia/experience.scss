@@ -21,6 +21,7 @@
     padding: 3%;
 }
 
+// aqui aninhei todas as tags dentro desse elemento, graças ao Scss posso deixar um pouco mais enchuto o codigo
 .grid-item {
     display: inline-grid;
     justify-content: center;
@@ -85,6 +86,7 @@
     margin: 4%;    
 }
 
+// Esta midia terá como função alem de alinhar, irá manter os itens um embaixo do outro
 @media (max-width: 768px) {
     .grid-exp{
         display: flex;

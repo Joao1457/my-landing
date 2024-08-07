@@ -4,6 +4,7 @@ import { EmailIcon } from "../icons/email-icon";
 
 import "./header.scss";
 
+// Foram importados os icones svgs e chamados numa ancora, configurei para os links serem mostrados em outra janela 
 export function Header() {
   return (
     <nav className="header">
@@ -12,6 +13,7 @@ export function Header() {
       </div>
       <div className="socials">             
         <ul className="nav-list">
+          {/* links ligados por IDs nos componentes */}
           <li><a href="#experience">Experiências</a></li>
           <li><a href="#skills">Conhecimentos</a></li>
           <li><a href="#contact">Contato</a></li>         
