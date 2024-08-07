@@ -94,5 +94,44 @@
     }    
 }
 
+@media (max-width: 935px) {
+    .contact-card{
+        width: 522px;
+        height: 352px;               
+     }
+
+     .contact-header{
+        padding: 0;
+     }
+
+     
+     .contact-socials{
+        position: relative;
+        top: 68px;
+        right: 320px;
+     }
+    
+}
+
+@media (max-width: 567px) {
+     .contact-card{
+        width: 396px;
+        height: 352px;        
+     }
+
+     .contact-header{
+        padding: 0;
+     }
+
+     
+     .contact-socials{
+        position: relative;
+        top: 68px;
+        right: 259px;
+     }
+     
+}
+
+
 
   

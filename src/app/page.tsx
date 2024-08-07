@@ -16,9 +16,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Landing</title>
       </head>
-      <body>
-        <Header />
+      <body>        
         <main className="container">
+          <Header/>
           <section className="home" id="home">
             <div className="card-home">
               <div className="card-header">

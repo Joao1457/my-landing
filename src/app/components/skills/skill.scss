@@ -58,3 +58,38 @@
     margin-right: 20px;
     padding: 3px;
 }
+
+@media (max-width: 1263px) {    
+    .technic{
+        grid-template-columns: auto auto auto;
+    }
+    
+}
+
+@media (max-width: 945px) {    
+    .technic{
+        grid-template-columns: auto auto;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .title{
+        h1{
+            font-size: 65px;
+        }
+    }
+
+    .technic{
+        grid-template-columns: auto;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .title{
+        h1{
+            font-size: 50px;
+        }
+    }    
+}
